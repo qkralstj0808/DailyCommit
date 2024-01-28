@@ -8,7 +8,7 @@
 
 JVM의 메모리공간(Runtime Data Area)은 크게 **Method(Static) 영역, Stack 영역, Heap 영역**으로 구분되고 데이터 타입(자료형)에 따라 각 영역에 나눠서 할당 되게 된다.
 
-![스크린샷 2024-01-14 오후 1.47.27.png](./memoryArea/pho1.png)
+![스크린샷 2024-01-14 오후 1.47.27.png](memoryArea_img/pho1.png)
 
 ---
 
@@ -57,7 +57,7 @@ class Counter {
 }
 ```
 
-![스크린샷 2024-01-14 오후 1.52.29.png](./memoryArea/pho2.png)
+![스크린샷 2024-01-14 오후 1.52.29.png](memoryArea_img/pho2.png)
 
 1. 클래스 변수(static)와 메소드는 무조건 Method 영역에 적재
 2. 일반 인스턴스 변수인 Counter 클래스의 변수state 그리고count 은 final 키워드가 붙었음에도 Method 영역에 들어가지 않음 (Heap 에 들어감)
@@ -104,7 +104,7 @@ class Counter {
 
 1. 생성자 new Counter() 를 호출한다.
 
-![스크린샷 2024-01-14 오후 2.22.35.png](./memoryArea/pho3.png)
+![스크린샷 2024-01-14 오후 2.22.35.png](memoryArea_img/pho3.png)
 
 생성자를 호출하면 heap 영역에 Counter 클래스 인스턴스 변수들이 저장되게 되고, stack 영역의 지역변수 sub 에 주소값으로 연결되게 된다.
 
