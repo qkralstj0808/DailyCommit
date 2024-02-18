@@ -4,7 +4,7 @@
 
 Open Systems Interconnection(개방형 시스템 상호연결)의 약자로, **네트워크에서 통신이 일어나는 과정을 7계층으로 나눈 모델**
 
-![스크린샷 2024-01-19 오후 1.54.53.png](./osi7layer_img/osi7layers_1.png)
+![스크린샷 2024-01-19 오후 1.54.53.png](osi7layer_img/osi7layers_1.png)
 
 **계층을 나눈 이유는 통신이 일어나는 과정이 단계별로 파악할 수 있기 때문이다.**
 
@@ -26,7 +26,7 @@ Open Systems Interconnection(개방형 시스템 상호연결)의 약자로, **
 
 OSI 7 Layer 의 목적은 이질적인 시스템간 상호 접속을 위해 공통적인 기반을 제공하는데 있다. 
 
-![Untitled](./osi7layer_img/osi7layers_2.png)
+![Untitled](osi7layer_img/osi7layers_2.png)
 
 **하지만 지금은 TCP/IP update 모델이 사용되고 있다.**
 
@@ -80,7 +80,7 @@ TCP/IP updated model 로 대체 되면서 OSI 의 상위 계층(application, pre
 
 이처럼 데이터 링크 계층은 단순히 데이터를 마구잡이로 보내지 않고 **안전하게 보내는 역할**도 수행한다.
 
-![Untitled](./osi7layer_img/osi7layers_3.png)
+![Untitled](osi7layer_img/osi7layers_3.png)
 
 ⇒  **브릿지나 스위치를 통해 맥주소를 가지고 물리계층에서 받은 정보를 전달함, 프레임에 주소부여(MAC - 물리적주소), 에러검출/재전송/흐름제어**
 
@@ -115,7 +115,7 @@ TCP/IP updated model 로 대체 되면서 OSI 의 상위 계층(application, pre
 
 서브네트의 최상위 계층으로 경로를 설정하고, 청구 정보를 관리한다. 개방형 시스템들의 사이에서 네트워크 연결을 설정, 유지, 해제하는 기능을 부여하고, 전송 계층 사이에 네트워크 서비스 데이터 유닛(NSDU : Network Service Data Unit)을 교환하는 기능을 제공한다.
 
-![스크린샷 2024-01-19 오후 1.01.59.png](./osi7layer_img/osi7layers_4.png)
+![스크린샷 2024-01-19 오후 1.01.59.png](osi7layer_img/osi7layers_4.png)
 
 ⇒ **주소부여(IP), 경로설정(Route)**
 
